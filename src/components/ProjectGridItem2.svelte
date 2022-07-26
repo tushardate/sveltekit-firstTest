@@ -41,7 +41,7 @@
 	`;
 	$: imageStyle = `
 		transform: scale(${$tweenedImageScale});
-		filter: grayscale(${$tweenedColor});
+		// filter: grayscale(${$tweenedColor});
 	`;
 
 	function handleOut() {
