@@ -3,4 +3,4 @@
 	import '../app.scss';
 </script>
 
-<div>About</div>
+<div>About page has changed</div>
