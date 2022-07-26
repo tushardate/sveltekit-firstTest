@@ -1,0 +1,545 @@
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-Regular.woff2') format('woff2'),
+        url('/src/fonts/Kern-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-Medium.woff2') format('woff2'),
+        url('/src/fonts/Kern-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-Bold.woff2') format('woff2'),
+        url('/src/fonts/Kern-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-BoldItalic.woff2') format('woff2'),
+        url('/src/fonts/Kern-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-MediumItalic.woff2') format('woff2'),
+        url('/src/fonts/Kern-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kern';
+    src: url('/src/fonts/Kern-Italic.woff2') format('woff2'),
+        url('/src/fonts/Kern-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-Medium.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-Bold.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-ExtraLight.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-Light.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic Normal';
+    src: url('/src/fonts/MoriGothic-Regular.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-Normal.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mori Gothic';
+    src: url('/src/fonts/MoriGothic-SemiBold.woff2') format('woff2'),
+        url('/src/fonts/MoriGothic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-Bold.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-Bold.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-LightItalic.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-LightItalic.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-BoldItalic.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-BoldItalic.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-Light.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-Light.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-Medium.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-Medium.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk Regular';
+    src: url('/src/fonts/FoundersGrotesk-RegularItalic.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-RegularItalic.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-MediumItalic.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-MediumItalic.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-Regular.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-Semibold.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-Semibold.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/fonts/FoundersGrotesk-SemiboldItalic.woff2') format('woff2'),
+        url('/src/fonts/FoundersGrotesk-SemiboldItalic.woff') format('woff'),
+        url('/src/fonts/FoundersGrotesk-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-BoldItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Bold.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-ExtraboldItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Heavy.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-HeavyItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Light.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Italic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-MediumItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Extrabold.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-LightItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Medium.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-ThinItalic.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Thin.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milligram';
+    src: url('/src/fonts/MilligramTrial-Regular.woff2') format('woff2'),
+        url('/src/fonts/MilligramTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-Extrabold.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-ExtraboldItalic.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-Bold.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-BoldItalic.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-ExtralightIt.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-ExtralightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-Extralight.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque Hairline';
+    src: url('/src/fonts/RebondGrotesque-HairlineItalic.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-HairlineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque Hairline';
+    src: url('/src/fonts/RebondGrotesque-Hairline.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-Italic.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-LightItalic.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('/src/fonts/RebondGrotesque-Light.woff2') format('woff2'),
+        url('/src/fonts/RebondGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Black.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Bold.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-BlackItalic.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-BoldItalic.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Medium.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Heavy.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-HeavyItalic.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk Mono';
+    src: url('/src/fonts/MonumentGrotesk-Mono.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-MediumItalic.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Italic.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/src/fonts/MonumentGrotesk-Regular.woff2') format('woff2'),
+        url('/src/fonts/MonumentGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

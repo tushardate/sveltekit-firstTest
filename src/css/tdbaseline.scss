@@ -1,0 +1,31 @@
+$base-font-size: 16px;
+
+// this value may vary for each font
+// unitless value relative to 1em
+$cap-height: 0.75;
+
+@mixin tdbaseline($font-size, $base-line-height: 1.5, $grid-spacing: 6px) {
+
+	// number of rhythm units that can fit the font-size
+	$lines: ceil(calc(($font-size * $base-line-height) / $grid-spacing));
+
+	// calculate the new line-height
+	$line-height: calc($grid-spacing * $lines / $font-size);
+
+	// use the results
+	font-size: $font-size;
+	line-height: $line-height;
+
+	$baseline-distance: calc(($line-height - $cap-height) / 2);
+	
+    // padding-top: $baseline-distance + em;
+    padding-top: calc(#{$baseline-distance + em} + #{$grid-spacing});
+	margin-bottom: calc(#{$base-line-height - $baseline-distance + em} - #{$grid-spacing * $lines});
+    // margin-bottom: calc(#{$baseline-distance + em} + #{$grid-spacing});
+}
+
+
+@mixin roundedHeight ($widthPerc, $roundTo: 12){
+    $result: calc(ceil(calc($widthPerc / $roundTo)) * $roundTo);
+    padding-bottom: $result;
+}
