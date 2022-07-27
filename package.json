@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"bezier-easing": "^2.1.0",
 		"gsap": "^3.10.4",
 		"locomotive-scroll": "^4.1.4",
 		"svelte-locomotive-scroll": "^0.0.5"
